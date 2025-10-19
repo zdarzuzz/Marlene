@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 1440px;
+  height: 10000px;
+  font-family: "Marlene" sans-serif;
+  margin: 0 auto;
+  background-image: url(file:///D:/Downloads/a.png);
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  position: relative;
+}
+
+.pensil {
+  position: absolute; /* Устанавливаем абсолютное позиционирование для оверлея */
+  width: 300px;
+  top: 10px;
+  height: auto;
+  margin-left: 180px;
+  opacity: 1; /* Прозрачность оверлея (от 0 до 1) */
+  display: block;
+}
+.check {
+  position: absolute;
+}
+
+.shadow {
+  position: absolute;
+  top: 350px;
+  left: 20%;
+  opacity: 0;
+  opacity: 0.3;
+}
+.shadow:hover {
+  transition: all 0.6s;
+  opacity: 1;
+}
+
+.sticker1 {
+  padding: 100px 0 0 1000px;
+  z-index: 3;
+}
+
+.angle {
+  z-index: 2;
+  position: absolute;
+  top: 470px;
+}
+.sticker2 {
+  position: absolute;
+  top: 500px;
+  z-index: 1;
+}
+
+.scotch {
+  position: absolute;
+  top: 300px;
+  left: 800px;
+}
+
+.firstText {
+  position: absolute;
+  top: 680px;
+  left: 580px;
+}
+
+.nicola {
+  position: absolute;
+  top: 850px;
+  left: 850px;
+  z-index: 2;
+}
+
+.backPaper {
+  position: absolute;
+  top: 850px;
+  z-index: 1;
+}
+
+.history {
+  font-size: 48px;
+  font-family: "Marlene";
+  width: 300px;
+  position: absolute;
+  top: 1200px;
+  left: 45px;
+  z-index: 2;
+  color: #262424;
+}
+
+.firstPar {
+  font-size: 25px;
+  position: absolute;
+  font-family: "Marlene";
+  font-weight: normal;
+  line-height: 140%;
+
+  width: 534px;
+  color: #262424;
+  top: 1340px;
+  left: 45px;
+  z-index: 2;
+}
+
+.firstPar1 {
+  font-size: 25px;
+  position: absolute;
+  font-family: "Marlene";
+  font-weight: normal;
+  line-height: 140%;
+  width: 534px;
+  color: #262424;
+  top: 1530px;
+  left: 45px;
+  z-index: 2;
+}
+
+.firstPar2 {
+  font-size: 25px;
+  position: absolute;
+  font-family: "Marlene";
+  font-weight: normal;
+  line-height: 140%;
+  width: 534px;
+  color: #262424;
+  top: 1930px;
+  left: 45px;
+  z-index: 2;
+}
+
+.sc {
+  position: absolute;
+  top: 1400px;
+  left: 1023px;
+}
+
+.ilya {
+  position: absolute;
+  top: 1940px;
+  left: 830px;
+  z-index: 3;
+}
+
+.plast {
+  position: absolute;
+  top: 2100px;
+  left: 300px;
+  z-index: 2;
+}
+
+.sticker3 {
+  position: absolute;
+  top: 1750px;
+  z-index: 2;
+}
+
+.quote {
+  position: absolute;
+  top: 2630px;
+  left: 260px;
+}
+
+.key {
+  position: absolute;
+  top: 2530px;
+}
+
+.arrow {
+  position: absolute;
+  top: 2500px;
+  left: 1000px;
+}
+
+.bird {
+  position: absolute;
+  top: 2800px;
+  left: 1050px;
+}
+
+.tomat {
+  position: absolute;
+  top: 2700px;
+  left: 1220px;
+}
