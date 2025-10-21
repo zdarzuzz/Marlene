@@ -9,13 +9,19 @@ body {
   height: 10000px;
   font-family: "Marlene" sans-serif;
   margin: 0 auto;
-  background-image: url(file:///D:/Downloads/a.png);
+  background-image: url(../images/a.png);
   background-repeat: no-repeat;
 
   background-position: center;
 
   position: relative;
 }
+
+/* #fullSection {
+  position: absolute;
+  margin-top: 1000px;
+} */
+/* Элементы firstSection */
 
 .pensil {
   position: absolute; /* Устанавливаем абсолютное позиционирование для оверлея */
@@ -36,9 +42,10 @@ body {
   left: 20%;
   opacity: 0;
   opacity: 0.3;
+  transition: opacity ease 0.1s;
 }
 .shadow:hover {
-  transition: all 0.6s;
+  transition: opacity ease 0.5s;
   opacity: 1;
 }
 
@@ -187,4 +194,270 @@ body {
   position: absolute;
   top: 2700px;
   left: 1220px;
+}
+
+/* Элементы secondSection */
+
+.helloFont {
+  position: absolute;
+  top: 2850px;
+  left: 350px;
+}
+
+.scotch2 {
+  position: absolute;
+  top: 3050px;
+}
+
+.scotch3 {
+  position: absolute;
+  top: 3200px;
+  left: 805px;
+  z-index: 3;
+}
+
+.sticker4 {
+  position: absolute;
+  top: 3700px;
+  left: 600px;
+  z-index: 2;
+}
+
+/* Элементы для HOVER  */
+
+.pen {
+  position: absolute;
+  padding: 2900px 0 0 737px;
+}
+
+.headphones {
+  position: absolute;
+  padding: 3250px 700px 0 0;
+  z-index: 1;
+}
+
+.pen1 {
+  position: absolute;
+  padding: 3500px 700px 0 0;
+}
+
+.gum {
+  position: absolute;
+  padding: 3850px 0 0 910px;
+}
+
+.scr {
+  position: absolute;
+  padding: 4350px 700px 0 0;
+}
+
+.pen2 {
+  position: absolute;
+  padding: 4000px 0 0 835px;
+  z-index: 3;
+}
+
+.pen3 {
+  position: absolute;
+  padding: 4300px 0 0 975px;
+  z-index: 3;
+}
+.pensil1 {
+  position: absolute;
+  padding: 4750px 600px 0 0;
+}
+
+.pensil2 {
+  position: absolute;
+  padding: 4900px 600px 0 0;
+}
+
+/* НАЧЕРТАНИЯ */
+
+.light {
+  position: absolute;
+  padding: 3800px 300px 0 500px;
+  opacity: 0.3;
+  transition: opacity ease 0.3s;
+  z-index: 4;
+}
+.light:hover {
+  opacity: 1;
+  transition: opacity ease 0.5s;
+}
+
+.lightItalic {
+  position: absolute;
+  margin: 4000px 400px 0 400px;
+  opacity: 0.3;
+  transition: opacity ease 0.3s;
+  z-index: 4;
+}
+.lightItalic:hover {
+  opacity: 1;
+  transition: opacity ease 0.5s;
+}
+
+.regular {
+  position: absolute;
+  margin: 4250px 300px 0 550px;
+  opacity: 0.3;
+  transition: opacity ease 0.3s;
+  z-index: 4;
+}
+.regular:hover {
+  opacity: 1;
+  transition: opacity ease 0.5s;
+}
+
+.regularItalic {
+  position: absolute;
+  margin: 4400px 350px 0 550px;
+  opacity: 0.3;
+  transition: opacity ease 0.3s;
+  z-index: 4;
+}
+.regularItalic:hover {
+  opacity: 1;
+  transition: opacity ease 0.5s;
+}
+
+.medium {
+  position: absolute;
+  margin: 4650px 350px 0 400px;
+  opacity: 0.3;
+  transition: opacity ease 0.3s;
+  z-index: 4;
+}
+.medium:hover {
+  opacity: 1;
+  transition: opacity ease 0.5s;
+}
+
+.mediumItalic {
+  position: absolute;
+  margin: 4800px 750px 0 150px;
+  opacity: 0.3;
+  transition: opacity ease 0.3s;
+  z-index: 4;
+}
+.mediumItalic:hover {
+  opacity: 1;
+  transition: opacity ease 0.5s;
+}
+
+.bold {
+  position: absolute;
+  margin: 5150px 100px 0 750px;
+  opacity: 0.3;
+  transition: opacity ease 0.3s;
+  z-index: 4;
+}
+.bold:hover {
+  opacity: 1;
+  transition: opacity ease 0.5s;
+}
+
+.boldItalic {
+  position: absolute;
+  margin: 5350px 100px 0 750px;
+  opacity: 0.3;
+  transition: opacity ease 0.3s;
+  z-index: 4;
+}
+.boldItalic:hover {
+  opacity: 1;
+  transition: opacity ease 0.5s;
+}
+
+/* Элементы thirdSection */
+
+.languages {
+  position: absolute;
+  margin: 5300px 300px 0 260px;
+}
+
+.eng {
+  position: absolute;
+  margin: 5710px 955px 0 0;
+}
+
+.rus {
+  position: absolute;
+  margin: 5130px 0 0 138px;
+}
+
+.glifs {
+  position: absolute;
+  margin: 6550px 330px 0 15px;
+}
+.glifText {
+  position: absolute;
+  margin: 6830px 540px 0 560px;
+}
+
+.letters {
+  position: absolute;
+  margin-top: 6690px;
+  z-index: 3;
+}
+
+.numbers {
+  position: absolute;
+  margin: 7100px 0 0 419px;
+  z-index: 2;
+}
+
+.list {
+  position: absolute;
+  margin: 7310px 1100px 0 0;
+  z-index: 2;
+}
+
+.text {
+  position: absolute;
+  margin: 7635px 660px 0 560px;
+}
+
+.numbers1 {
+  position: absolute;
+  margin: 7908px 450px 0 318px;
+  z-index: 3;
+}
+
+.can {
+  position: absolute;
+  margin: 7300px 800px 0 304px;
+}
+
+.gumH1 {
+  position: absolute;
+  margin: 7890px 415px 0 54px;
+  z-index: 2;
+}
+
+.ding {
+  position: absolute;
+  margin: 8350px 760px 0 0;
+}
+
+.liga {
+  position: absolute;
+  margin: 8470px 0 0 780px;
+  z-index: 2;
+}
+
+.card {
+  position: absolute;
+  margin: 8440px 500px 0 290px;
+  z-index: 2;
+}
+.card1 {
+  position: absolute;
+  margin: 8650px 960px 0 0;
+}
+
+.headphones1 {
+  position: absolute;
+  margin: 8600px 0 0 1000px;
 }
